@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
 }
 
 .container {
@@ -153,7 +160,7 @@ nav .container .nav-right .nav-btn{}
 
 
 
-/* servicePart  */
+/* service section  */
 .service {
     padding: 60px;
 }
@@ -196,7 +203,7 @@ nav .container .nav-right .nav-btn{}
 
 
 
-/* destinationPart  */
+/* destination section  */
 .destination {
     padding: 60px;
 }
@@ -211,18 +218,16 @@ nav .container .nav-right .nav-btn{}
     overflow: hidden;
     cursor: pointer;
 }
+.d-box:hover .image img {
+    transform: scale(1.1);
+}
 .d-box .image {
     height: 220px;
     overflow: hidden;
 }
-
 .d-box .image img {
     transition: .4s;
 }
-.d-box:hover .image img {
-    transform: scale(1.1);
-}
-
 .d-box .d-box-content {
     text-align: center;
     padding: 25px 30px;
@@ -252,7 +257,7 @@ nav .container .nav-right .nav-btn{}
 }
 
 
-/* testimonialpart  */
+/* testimonial section  */
 
 .testimonial {
     padding: 80px 0;
@@ -325,5 +330,91 @@ nav .container .nav-right .nav-btn{}
     color: #aaa;
 }
 
-
+/* footerPart */
+.footerPart{
+    background-color: #2D3E50;
+    padding: 20px 0;
+   
+}
+.mid-footer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     
+
+}
+.col-footer{
+    width: 24%;
+}
+.col-footer h2{
+    color: #999;
+    margin-bottom: 11px;
+}
+
+.footerIcon{
+    margin-left: -82px;
+ 
+}
+.footerIcon span {
+    border-radius: 25px 5px;
+    
+    padding: 5px 10px;
+    transition: 0.6s;
+}
+.footerIcon span i {
+    background-color: #999;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 23px;
+}
+
+.footerIcon span:hover{
+    color: #fff;
+    background-color: #222;
+}
+.footerlist{}
+.footerlist ul{
+    list-style: none;
+}
+.footerlist ul li{}
+.footerlist ul li a {
+    padding: 14px 10px;
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 0;
+}
+.footerlist ul li a span {
+    color: #999;
+    font-size: 15px;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+.copywrite{
+    margin: 20px 0;
+    
+}
+.policy{}
+.policy ul{}
+.policy ul li{
+    display: inline-block;
+}
+.policy ul li a {
+    padding: 5px 16px;
+    border-left: 1px solid #999;
+    
+     color: #999;
+    margin-left: -4px;
+    transition: 0.5s;
+}
+.policy ul li:first-child a{
+    border-left: none;
+}
+.policy ul li a:hover{
+    color: #111;
+    background-color: #999;
+}
