@@ -153,7 +153,7 @@ nav .container .nav-right .nav-btn{}
 
 
 
-/* service section  */
+/* servicePart  */
 .service {
     padding: 60px;
 }
@@ -196,7 +196,7 @@ nav .container .nav-right .nav-btn{}
 
 
 
-/* destination section  */
+/* destinationPart  */
 .destination {
     padding: 60px;
 }
@@ -211,16 +211,18 @@ nav .container .nav-right .nav-btn{}
     overflow: hidden;
     cursor: pointer;
 }
-.d-box:hover .image img {
-    transform: scale(1.1);
-}
 .d-box .image {
     height: 220px;
     overflow: hidden;
 }
+
 .d-box .image img {
     transition: .4s;
 }
+.d-box:hover .image img {
+    transform: scale(1.1);
+}
+
 .d-box .d-box-content {
     text-align: center;
     padding: 25px 30px;
@@ -250,7 +252,7 @@ nav .container .nav-right .nav-btn{}
 }
 
 
-/* testimonial section  */
+/* testimonialpart  */
 
 .testimonial {
     padding: 80px 0;
@@ -322,3 +324,6 @@ nav .container .nav-right .nav-btn{}
     font-size: 14px;
     color: #aaa;
 }
+
+
+    
